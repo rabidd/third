@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Swarm d3.js</title>
+    <script type="text/javascript" src="d3.v2.min.js"></script>
+	<link rel="stylesheet" href="/style.css" type="text/css"/>    
+    
+	</head>
+	<body>
+	
+		<div id="fps">FPS: <span></span></div>
+
+		<style type='text/css'>
+			.chart {
+				background: #fff;
+				border: solid 1px #fff;
+				box-shadow: 0 0 4px rgba(34,34,34,.2);
+				font: 10px sans-serif;
+				width: 1200px;				
+				height: 600px;
+				position: relative;
+			}			
+			.chart svg {
+				border-left: solid 2px #fff;
+				position: absolute;
+				top: 0;
+			}
+			.chart circle {
+  				stroke: #fff;
+  				stroke-width: 1.5px;
+			}
+		</style>
+		<script type="text/javascript" src="swarm.js"></script>
+		  
+	</body>
+</html>
